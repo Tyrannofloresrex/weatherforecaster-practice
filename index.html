@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>What's the Weather Like?</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>5-Day Weather Forecast</h4>
+      <ul class="nav nav-pills nav-stacked" id ="city-list">
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" id="city-search" placeholder="Search Cities..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" id = "search-button" type="submit">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9" id="papaDiv">
+      <h1 id="city-name"></h1>
+      <div id ="current-display">
+
+      </div>
+      <hr>
+      <div class= "row" id = "fiveDayDisplay" >
+        
+      </div>
+    </div>
+    
+    
+      
+</body>
+
+<script src="script.js"></script>
+
+</html>
